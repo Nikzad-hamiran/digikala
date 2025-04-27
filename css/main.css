@@ -1,10 +1,10 @@
-@import "/css/header.css";
+@import "./header.css";
 @import "./story.css";
 @import "./setting.css";
 @import "./slider.css";
 @import "./advantages.css";
 @import "./offer.css";
-@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "./font-awesome.min.css";
 @import "./health.css";
 @import "./hyperoff.css";
 @import "./category-order.css";
