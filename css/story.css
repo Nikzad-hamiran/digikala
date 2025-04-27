@@ -1,0 +1,36 @@
+.story-box {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 25px 0px;
+  .swiper-wrapper {
+    padding: 10px 0px;
+  }
+  img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    outline: 2px solid #8d4b9c;
+    outline-offset: 3px;
+    margin-bottom: 20px;
+  }
+  .swiper-slide a {
+    text-decoration: none;
+    p {
+      width: 80px;
+      margin: 0 auto;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      overflow: hidden;
+      font-family: yekan;
+      font-size: 11px;
+      color: #292a52;
+      text-decoration: none;
+    }
+  }
+}

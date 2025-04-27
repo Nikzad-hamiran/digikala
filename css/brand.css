@@ -1,0 +1,23 @@
+.brands {
+  text-align: center;
+  margin-top: 25px;
+  padding: 24px 0px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  .brands-title {
+    i {
+      color: #f9bc00;
+    }
+  }
+  .brands-content {
+    .swiper-slide {
+      /* padding: 0px 15px; */
+      &:not(:last-child) {
+        border-left: 1px solid rgba(211, 211, 211, 0.596);
+      }
+    }
+  }
+}
